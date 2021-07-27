@@ -1,10 +1,16 @@
 # REPLACEMEREPO ![GitHub release (latest by date)](https://img.shields.io/github/v/release/olets/REPLACEMEREPO)
 
+1. Click "use this template" (or download this repo, or clone it with --single-branch --branch main --depth 1)
 1. Replace all instances of REPLACEMEREPO with the repo name
-2. Replace all instances of REPLACEMEYEAR with the year
-3. Replace REPLACEMEMETHOD with the recommended installation method
+1. Replace all instances of REPLACEMEYEAR with the year
+1. Replace REPLACEMEMETHOD with the recommended installation method
+1. Commit changes
+
+(In theory could also use GitHub's "template repo" feature but as of this writing that includes an unattractive "generated from …" header on the repo page.)
 
 <!-- TOC -->
+
+
 
 ## Requirements
 
