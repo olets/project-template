@@ -10,8 +10,16 @@
 <!-- End meta notes -->
 
 <!-- TOC -->
-
-
+- [Requirements](#requirements)
+- [Installation](#installation)
+    - [Homebrew](#homebrew)
+    - [With a shell plugin manager](#with-a-shell-plugin-manager)
+    - [Manual](#manual)
+- [Usage](#usage)
+    - [Examples](#examples)
+    - [Options](#options)
+- [Contributing](#contributing)
+- [License](#License)
 
 ## Requirements
 
