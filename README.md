@@ -1,8 +1,16 @@
 # REPLACEMEREPO ![GitHub release (latest by date)](https://img.shields.io/github/v/release/olets/REPLACEMEREPO)
 
 <!-- Begin meta notes -->
-1. Download this repo, or clone it with --single-branch --branch main --depth 1
-    (In theory could also use GitHub's "template repo" feature but as of this writing that includes an unattractive "generated from …" header on the repo page.)
+1. Initialize a git repository
+1. Add this repository as a remote named `project-template`
+1. Add all files from this repository
+    ```shell
+    git cherry-pick -n $(git log --pretty=format:'%h' project-template/main | tail -1)..project-template/main
+    ```
+1. Remove the remote
+    ```shell
+    git remote remove project-template
+    ```
 1. Replace all instances of REPLACEMEREPO with the repo name
 1. Replace all instances of REPLACEMEYEAR with the year
 1. Replace all instances of REPLACEMEMETHOD with the recommended installation method
