@@ -5,7 +5,11 @@
     (In theory could also use GitHub's "template repo" feature but as of this writing that includes an unattractive "generated from …" header on the repo page.)
 1. Replace all instances of REPLACEMEREPO with the repo name
 1. Replace all instances of REPLACEMEYEAR with the year
-1. Replace REPLACEMEMETHOD with the recommended installation method
+1. Replace all instances of REPLACEMEMETHOD with the recommended installation method
+1. Replace all instances of REPLACEMEDESCRIPTION with the description
+1. Remove any unwanted parts of README.md
+1. Remove package.json if not needed
+1. Remove these meta notes
 1. Commit changes
 <!-- End meta notes -->
 
