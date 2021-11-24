@@ -1,7 +1,7 @@
 # REPLACEMEREPO ![GitHub release (latest by date)](https://img.shields.io/github/v/release/olets/REPLACEMEREPO)
 
 <!-- Begin meta notes -->
-1. Initialize a git repository
+1. Initialize a Git repository
 1. Add this repository as a remote named `project-template`
 1. Add all files from this repository
     ```shell
@@ -11,14 +11,15 @@
     ```shell
     git remote remove project-template
     ```
+1. Remove any unwanted parts of README.md
+1. Remove package.json if not needed
 1. Replace all instances of REPLACEMEREPO with the repo name
 1. Replace all instances of REPLACEMEYEAR with the year
 1. Replace all instances of REPLACEMEMETHOD with the recommended installation method
 1. Replace all instances of REPLACEMEDESCRIPTION with the description
-1. Remove any unwanted parts of README.md
-1. Remove package.json if not needed
 1. Remove these meta notes
-1. Commit changes
+1. Add all files and commit
+1. Fill out README.md and, if applicable, package.json
 <!-- End meta notes -->
 
 <!-- TOC -->
