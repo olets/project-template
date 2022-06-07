@@ -8,6 +8,7 @@
 1. Replace all instances of REPLACEMEYEAR with the year
 1. Replace all instances of REPLACEMEMETHOD with the recommended installation method
 1. Replace all instances of REPLACEMEDESCRIPTION with the description
+1. Delete CONTRIBUTING.md if not taking contributions
 1. Remove these meta notes
 1. Add all files and commit
 1. Fill out README.md and, if applicable, package.json
